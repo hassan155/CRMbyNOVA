@@ -1,0 +1,33 @@
+export const tokens = {
+  colors: {
+    primary: '#ff7a59',
+    secondary: '#2d3e50',
+    accent: '#00a4bd',
+    bg: '#f5f8fa',
+    fg: '#33475b',
+    card: '#ffffff',
+    border: '#cbd6e2',
+  },
+  color: {
+    cardForeground: '#000000',
+    white: '#FFFFFF',
+    black: '#000000',
+    onPrimary: '#000000',
+    onSecondary: '#FFFFFF',
+    onAccent: '#000000',
+    primary: '#ff7a59',
+    secondary: '#2d3e50',
+    accent: '#00a4bd',
+    bg: '#f5f8fa',
+    fg: '#33475b',
+    card: '#ffffff',
+    border: '#cbd6e2',
+    text: '#33475b',
+    textMuted: '#7c98b6',
+    surface: '#ffffff',
+    info: '#3b82f6',
+    warning: '#f59e0b',
+    success: '#10b981',
+    danger: '#ef4444',
+  }
+};

@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #ff7a59;
+  --color-on-primary: #000000;
+  --color-secondary: #2d3e50;
+  --color-on-secondary: #ffffff;
+  --color-accent: #00a4bd;
+  --color-on-accent: #000000;
+  --color-bg: #f5f8fa;
+  --color-fg: #33475b;
+  --color-card: #ffffff;
+  --color-card-fg: #33475b;
+  --color-muted: #f5f8fa;
+  --color-muted-fg: #000000;
+  --color-border: #cbd6e2;
+  --color-ring: #ff7a59;
+  --color-destructive: #f2545b;
+  --color-on-destructive: #000000;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f5f8fa;
+  color: #33475b;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar for HubSpot sleek feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd6e2;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7c98b6;
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.2s ease-in-out;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
